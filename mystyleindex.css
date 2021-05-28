@@ -1,0 +1,168 @@
+
+/* Add some padding on document's body to prevent the content
+    to go underneath the header and footer */
+    body{
+        padding-top: 0px;
+        padding-bottom: 40px;
+    }
+
+    .footer{
+        width: 100%;
+		height: 100%;
+        position: relative;
+        background: black;
+        padding: 20px 0px;
+        color: #fff;
+		margin-bottom: 0;
+    }
+    .footer{
+       margin-bottom:-3em;
+	   margin-right:0em;
+	   margin-left:0em;
+    }
+    .container{
+        width: 100%;
+		height: 100%;
+        margin: 0 auto; /* Center the DIV horizontally */
+		text-align: center;
+    }
+    nav a{
+        color: white;
+        text-decoration: none;
+        padding: 7px 25px;
+        display: inline-block;
+    }
+
+div{
+width: 100%;
+height: 500%
+}
+h1{
+	font-style: italic;
+	text-align: center;
+	color: darkgoldenrod;
+	font-family:monospace;
+}
+h4{
+	text-align: center;
+	padding-top: 20px;
+    color: black;
+    font-family: cursive;
+}
+.styling{
+	text-align: center;
+}
+.stylingp{
+	margin-left:10em;
+}
+.stylingc{
+	background-color:white;
+
+}
+h3{
+	text-align: center;
+}
+hr{
+	background-color: grey;
+}
+.tall{
+	text-align: center;
+	color: white;
+	padding: 0em;
+}
+
+        form{
+            padding-top: 30px;
+        }
+		.fixed-header, .fixed-footer{
+        width: 100%;
+        position: fixed;
+
+        padding: 10px 0;
+        color: black;
+    }
+    .fixed-header{
+        top: 0;
+    }
+    .fixed-footer{
+        bottom: 0;
+    }
+	.left {
+	float: left;
+	padding: 1em;
+
+	}
+	#container {
+			width: 100%;
+			overflow: visible;
+		}
+	.left {
+			float: left;
+			padding: 1em;
+
+		}
+
+		.right {
+			float: right;
+			padding: 0em;
+			text-indent: 62em;
+			margin-top:-5em;
+		}
+		.backgroundimg {
+			position: fixed;
+			bottom:0;
+			width: 100%;
+			height: 40%;
+			background: #67C067;
+			z-index: -5;
+		}
+		*{
+			margin:0;
+			padding:0;
+			list-style:none;
+			text-decoration:none;
+		}
+   .stylinglegal{
+	margin-left:20em;
+	margin-top:-5em;
+   }
+   nav1 a{
+	   text-decoration: none;
+		color: white;
+		font-size: 20pt;
+		background: black;
+   }
+   a:Read More {
+			text-decoration: none;
+			color: white;
+            background: black;
+		}
+		nav2 a{
+		text-decoration: none;
+		color: black;
+		}
+		a {
+			text-decoration: none;
+			color: green;
+			font-size: 14pt;
+		}
+
+		a:link {
+			text-decoration: none;
+			color: orange;
+
+		}
+
+		a:visited {
+			color: white;
+		}
+
+		a:hover {
+			color: darkgoldenrod;
+			background: black;
+		}
+
+		a:active {
+			color: green;
+			background: beige;
+		}
